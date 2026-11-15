@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="translation_universal"
+version="${file.jarVersion}"
+displayName="Translation Universal"
+authors="ikyy"
+description='''Penerjemah Bahasa Indonesia otomatis untuk mod Minecraft yang didukung.'''
+
+[[dependencies.translation_universal]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.251,)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.translation_universal]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.22)"
+ordering="NONE"
+side="CLIENT"
